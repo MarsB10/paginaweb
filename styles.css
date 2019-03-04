@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#wholepage{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grad{
+    background-color: #f4f4f4;
+    background-image: linear-gradient(#fcfcfc,#494949);
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h5{
+    color: #CC1EA2;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    padding: 5%;
+}
+
+div.card.horizontal {
+    box-shadow: #c9c8c8 4px 4px;
+    background: #ffdf3fe8;
+    border-radius: 4px;
+    height: 20%;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+div.card-image{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;   
+}
+
+img.foto{
+    box-shadow: #a18d28e8 2px 2px 10px 6px;
+    width: 100%;    
+}
+
+div.card-stacked{ 
+    text-align: left;
+    margin: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1%;
+}
+
+
+div.card-panel{
+    background-color: #CC1EA2;
+    color: #f4f4f4;
+    box-shadow: #a18d28e8 2px 2px 15px 6px;
+}
+
+div.buttons{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+img.Telegram{
+    width: 20px;
+}
+
+img.Gmail{
+    width: 20px;
+}
+
+img.Github{
+    width: 20px;
+
+}
+
+a.waves-effect.waves-light.btn-large {
+    background-color: #B22390;
+    color: #f4f4f4;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.dvd{
+    width:60%;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #58fffc62;
+    box-shadow: #7bc7c660 2px 2px 10px 10px;
+}
+
+hr{
+    border: 0; 
+    height: 1px; 
+    margin-top: 40px;
+    background-image: -webkit-linear-gradient(left, #f4f4f454, #8c8b8b, #f4f4f454);
+    background-image: -moz-linear-gradient(left, #f4f4f454, #8c8b8b, #f4f4f454);
+    background-image: -ms-linear-gradient(left, #f4f4f454, #8c8b8b, #f4f4f454);
+    background-image: -o-linear-gradient(left, #f4f4f454, #8c8b8b, #f4f4f454); 
+}
+
+div.entretenimiento{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; 
+}
+
+img.Twitter{
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-left:125px;
+    
+}
+
+img.Youtube{
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-left: 125px;
+   
+}
+
+img.Reddit{
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 125px;
+}
