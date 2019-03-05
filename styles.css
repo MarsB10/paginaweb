@@ -29,46 +29,46 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-div.card.horizontal {
+div.card {
     box-shadow: #96949494 4px 4px;
     background: #ffdf3fe8;
+    width: auto;
     height: auto;
     padding: 35px;
-    margin: auto;
-    overflow: auto;
-}
-
-div.card-image{
     margin: auto;
 }
 
 img.foto{
     box-shadow: #a18d28e8 2px 2px 10px 6px;
-    width: 100%;
-    min-width: 300px;
+    width: 350px;
+    min-block-size: 200px;
     height: auto;
-    margin: auto;
+    margin: 5%;
+    border-radius: 6px;
 }
 
 div.card-panel{
-    text-align: left;
-    margin: auto;
+    text-align: center;
+    margin-top: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px;
+    padding: auto;
     background-color: #CC1EA2;
     color: #f4f4f4;
     box-shadow: #a18d28e8 2px 2px 15px 6px;
     border-radius: 6px;
     width: 250px;
-    min-width: 200px;
+    height: 250px;
 }
 
 div.buttons{
     margin: auto;
+    padding: 5%;
+    float: auto;
 }
 
 img.Telegram{
     width: 20px;
+    margin: 5px;
 }
 
 img.Gmail{
@@ -133,6 +133,13 @@ img.Reddit{
 }
 
 @media only screen and (max-width: 800px){
+    img.foto{
+        box-shadow: #a18d28e8 2px 2px 10px 6px;
+        width: 270px;
+        height: auto;
+        margin: auto;
+        border-radius: 6px;
+    }
 
     img.Twitter{
         width: 100px;
@@ -150,5 +157,50 @@ img.Reddit{
         width: 100px;
         margin: auto;
         padding: 5%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    div.card {
+        box-shadow: #96949494 4px 4px;
+        background: #ffdf3fe8;
+        width: auto;
+        height: auto;
+        padding: 35px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    img.foto{
+        box-shadow: #a18d28e8 2px 2px 10px 6px;
+        width: 350px;
+        min-block-size: 200px;
+        height: auto;
+        margin: 5%;
+        border-radius: 6px;
+        float: auto;
+    }
+    
+    div.card-panel{
+        text-align: left;
+        margin: auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+        background-color: #CC1EA2;
+        color: #f4f4f4;
+        box-shadow: #a18d28e8 2px 2px 15px 6px;
+        border-radius: 6px;
+        width: 250px;
+        min-width: 150px;
+        height: 300px;
+        min-height: 200px;
+        float: auto;
+    }
+
+    div.buttons{
+        margin: auto;
+        padding: 5%;
+        float: auto;
     }
 }
